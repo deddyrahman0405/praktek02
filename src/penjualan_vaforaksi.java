@@ -11,5 +11,8 @@
 public class penjualan_vaforaksi {
     public static void main(String[] args) {
         penjualan_vafor r1 = new penjualan_vafor();
+        
+        r1.harga_vafor = 900000;
+        r1.jumlah_vafor = 4;
     }
 }
