@@ -12,6 +12,16 @@ public class penjualan_vafor {
     int harga_vafor;
     int jumlah_vafor;
     
+    public penjualan_vafor() {
+        this.harga_vafor = 1000000;
+        this.jumlah_vafor = 3;
+    }
+    
+    public penjualan_vafor(int harga_vafor, int jumlah_vafor) {
+        this.harga_vafor = harga_vafor;
+        this.jumlah_vafor = jumlah_vafor;
+    }
+    
     void cetakInfo(){
         System.out.println("===================");
         System.out.println("Harga vafor  :"+harga_vafor);
