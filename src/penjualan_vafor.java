@@ -18,4 +18,10 @@ public class penjualan_vafor {
         System.out.println("Jumlah vafor :"+jumlah_vafor);
         System.out.println("===================");
     }
+        
+    int hitungPenjualan(){
+            int total;
+            total=harga_vafor*jumlah_vafor;
+            return total;      
+    }
 }
