@@ -9,5 +9,13 @@
  * @author acer
  */
 public class penjualan_vafor {
+    int harga_vafor;
+    int jumlah_vafor;
     
+    void cetakInfo(){
+        System.out.println("===================");
+        System.out.println("Harga vafor  :"+harga_vafor);
+        System.out.println("Jumlah vafor :"+jumlah_vafor);
+        System.out.println("===================");
+    }
 }
