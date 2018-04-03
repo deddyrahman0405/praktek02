@@ -10,6 +10,6 @@
  */
 public class penjualan_vaforaksi {
     public static void main(String[] args) {
-        
+        penjualan_vafor r1 = new penjualan_vafor();
     }
 }
