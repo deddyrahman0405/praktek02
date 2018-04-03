@@ -22,6 +22,9 @@ public class penjualan_vafor {
     int hitungPenjualan(){
             int total;
             total=harga_vafor*jumlah_vafor;
-            return total;      
+            return total;
+    }      
+    void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungPenjualan());
     }
 }
