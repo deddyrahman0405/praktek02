@@ -18,5 +18,10 @@ public class penjualan_vaforaksi {
         r1.cetakInfo();
         System.out.println("total   =   "+r1.hitungPenjualan());
         r1.cetaktotal();
+        
+        penjualan_vafor r2 = new penjualan_vafor();
+        r2.cetakInfo();
+        penjualan_vafor r3 = new penjualan_vafor(950000,3);
+        r3.cetakInfo();
     }
 }
