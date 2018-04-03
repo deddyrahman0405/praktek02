@@ -14,5 +14,7 @@ public class penjualan_vaforaksi {
         
         r1.harga_vafor = 900000;
         r1.jumlah_vafor = 4;
+        
+        r1.cetakInfo();
     }
 }
